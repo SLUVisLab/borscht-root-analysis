@@ -1,0 +1,25 @@
+# Separate git repos that live alongside this project (not part of it)
+/growth-display/
+/references/
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data and large outputs stay out of git (raw data lives on Lambda: /data/datasets/BII-NRR_MinirhizotronData)
+/data/
+/outputs/
+*.png
+*.PNG
+*.jpg
+*.tif
+*.tiff
+
+.DS_Store
+
+# Per-machine secrets and settings (never in git)
+.env
+.env.*
+!.env.example

@@ -1,0 +1,39 @@
+unparseable names: []
+keys: local 3798  remote main 3778  remote removes 62
+  local: keys with >1 file: 0 []
+  remote main: keys with >1 file: 0 []
+  remote removes: keys with >1 file: 0 []
+
+key in both: 3777  identical bytes: 3404  differing bytes: 373
+local-only keys: 21  (of which in remote removes/: 1)
+remote-only keys: 1
+
+LOCAL-ONLY keys not in removes:
+   kura_201_003_2024-03-26_TP2.png | same bytes remote: []
+   kura_203_002_2024-10-08_TP11.png | same bytes remote: []
+   kura_216_007_2024-05-21_TP6.png | same bytes remote: ['raw_images/kura_216_006_2024-05-21_TP6.png']
+   kura_229_001_2024-05-07_TP5.png | same bytes remote: ['raw_images/kura_229_002_2024-05-07_TP5.png']
+   kura_235_005_2024-03-11_TP1.png | same bytes remote: ['raw_images/kura_235_004_2024-03-11_TP1.png']
+   kura_238_001_2024-05-07_TP5.png | same bytes remote: []
+   kura_238_002_2024-05-07_TP5.png | same bytes remote: []
+   kura_238_003_2024-05-07_TP5.png | same bytes remote: []
+   kura_238_004_2024-05-07_TP5.png | same bytes remote: []
+   kura_238_005_2024-05-07_TP5.png | same bytes remote: []
+   kura_238_006_2024-05-09_TP5.png | same bytes remote: []
+   kura_238_007_2024-05-07_TP5.png | same bytes remote: []
+   kura_239_001_2024-05-09_TP5.png | same bytes remote: []
+   kura_239_002_2024-05-07_TP5.png | same bytes remote: []
+   kura_239_003_2024-05-09_TP5.png | same bytes remote: []
+   kura_239_004_2024-05-07_TP5.png | same bytes remote: []
+   kura_239_005_2024-05-09_TP5.png | same bytes remote: []
+   kura_239_006_2024-05-07_TP5.png | same bytes remote: []
+   kura_239_007_2024-05-07_TP5.png | same bytes remote: []
+   kura_247_002_2024-05-09_TP5.png | same bytes remote: ['raw_images/kura_247_001_2024-05-09_TP5.png']
+
+REMOTE-ONLY keys:
+   raw_images/kura_229_007_2024-05-07_TP5.png | same bytes local: ['kura_229_006_2024-05-07_TP5.png']
+
+differing-bytes by TP: [(1, 32), (2, 32), (3, 33), (4, 33), (5, 39), (6, 34), (7, 28), (8, 28), (9, 28), (10, 28), (11, 27), (12, 31)]
+differing-bytes by tube: [(201, 83), (202, 27), (203, 81), (204, 83), (205, 83), (216, 6), (226, 2), (229, 5), (235, 2), (247, 1)]
+
+pairs to pixel-compare: 373; remote files to fetch: 374
